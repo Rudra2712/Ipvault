@@ -1,0 +1,31 @@
+# .NET Core & Visual Studio
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.db
+*.db-shm
+*.db-wal
+
+# Uploads directory
+backend/IPVault.API/uploads/*
+!backend/IPVault.API/uploads/.gitkeep
+
+# Node & Angular
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment files
+.env

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{02D63553-BE18-4192-8A0D-BEF8E3BC75FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPVault.API", "backend\IPVault.API\IPVault.API.csproj", "{EE7D4D12-5717-4EE4-8704-012B9489A1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPVault.Tests", "backend\IPVault.Tests\IPVault.Tests.csproj", "{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7D4D12-5717-4EE4-8704-012B9489A1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7D4D12-5717-4EE4-8704-012B9489A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7D4D12-5717-4EE4-8704-012B9489A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7D4D12-5717-4EE4-8704-012B9489A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE7D4D12-5717-4EE4-8704-012B9489A1C5} = {02D63553-BE18-4192-8A0D-BEF8E3BC75FE}
+		{E5EC5AEE-CF5F-4FE7-9F8C-270A84875B91} = {02D63553-BE18-4192-8A0D-BEF8E3BC75FE}
+	EndGlobalSection
+EndGlobal
