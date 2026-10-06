@@ -294,6 +294,3 @@ dotnet test
 
 2. **How does the HTTP Interceptor protect API calls?**
    - *Answer:* The functional `authInterceptor` intercepts every outgoing HTTP request, clones it, and attaches the JWT Bearer token in the `Authorization` header. It also catches `401 Unauthorized` responses to clear invalid sessions and redirect to the login page.
-#   I p v a u l t  
- #   I p v a u l t  
- 
